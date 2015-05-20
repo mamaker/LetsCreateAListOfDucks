@@ -45,8 +45,10 @@ namespace LetsCreateAListOfDucks
 
         public static void PrintDucks(List<Duck> ducks)
         {
-            foreach (Duck duck in ducks)
-                Console.WriteLine(duck.Size.ToString() + "-inch " + duck.Kind.ToString());
+            foreach (Duck duck in ducks) {
+                //Console.WriteLine(duck.Size.ToString() + "-inch " + duck.Kind.ToString());
+                Console.WriteLine(duck);
+            }
             Console.WriteLine("End of ducks!");
         }
     }
